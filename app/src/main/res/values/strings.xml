@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">P2</string>
+    <string name="Logout">Logout</string>
+    <string name="Nearest_Shop">NearestShop</string>
+    <string name="Recommended_Shops">RecommendedShops</string>
+    <string name="Payment">Payment\n</string>
+    <string name="Your_Favourites">Your Favourites</string>
+    <string name="Your_Order">Orders</string>
+    <string name="Personal_Information">PersonalInformation</string>
+    <string name="_000_0">000.0</string>
+    <string name="TotalSpent">TotalSpant</string>
+    <string name="_10">10</string>
+    <string name="Orders">Orders</string>
+    <string name="_00_00">00.00</string>
+    <string name="Balance">Balance</string>
+    <string name="california_usa">Calefornia,USA</string>
+    <string name="johan_smith">Johan Smith</string>
+</resources>
