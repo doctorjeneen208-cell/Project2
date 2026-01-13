@@ -3,6 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
     android:padding="20dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -44,12 +46,13 @@
         android:stepSize="1"
         android:theme="@style/YellowStars" />
 
+
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/johan_smith"
-        android:textSize="25sp"
+        android:text="JohanSmith"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_below="@id/rat_bar"
         android:layout_marginTop="2dp"
@@ -60,8 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
         android:layout_centerHorizontal="true"
-        android:text="@string/california_usa"
-        android:textSize="17sp"
+        android:text="California,USA"
+        android:textSize="15sp"
         android:layout_marginTop="2dp"
         />
     <LinearLayout
@@ -76,18 +79,17 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:layout_margin="7dp"
             android:layout_weight="1"
-            android:background="@drawable/gr"
-            android:gravity="center"
+            android:background="@drawable/box"            android:gravity="center"
             android:orientation="vertical"
             android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Balance"
+                android:text="Balance"
                 android:textColor="#E9E4E9"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -95,7 +97,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_00_00"
+                android:text="00_00"
                 android:textColor="#EBE3E3"
                 android:textSize="16sp" />
 
@@ -103,10 +105,10 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:layout_margin="7dp"
             android:layout_weight="1"
-            android:background="@drawable/gr"
+            android:background="@drawable/box"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="10dp">
@@ -114,7 +116,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Orders"
+                android:text="Orders"
                 android:textColor="#E9E4E9"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -122,7 +124,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_10"
+                android:text="10"
                 android:textColor="#EBE3E3"
                 android:textSize="16sp" />
 
@@ -130,10 +132,10 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@drawable/gr"
+            android:background="@drawable/box"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="1dp">
@@ -141,7 +143,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/TotalSpent"
+                android:text="TotalSpent"
                 android:textColor="#E9E4E9"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -149,7 +151,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_000_0"
+                android:text="000_0"
                 android:textColor="#EBE3E3"
                 android:textSize="16sp"
                 tools:ignore="TextContrastCheck" />
@@ -173,7 +175,7 @@
 
             <ImageView
                 android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_2" />
 
@@ -182,15 +184,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:text="@string/Personal_Information"
+                android:text="Personal_Information"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/img_1" />
+                android:src="@drawable/img_1"/>
 
         </LinearLayout>
 
@@ -209,22 +211,22 @@
 
             <ImageView
                 android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_3" />
 
             <TextView
                 android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:text="@string/Your_Order"
-            android:textColor="#000000"
-            android:textSize="15sp" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="Your_Order"
+                android:textColor="#000000"
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="7dp"
                 android:src="@drawable/img_1" />
 
@@ -245,7 +247,7 @@
 
             <ImageView
                 android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_4" />
 
@@ -254,15 +256,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:text="@string/Your_Favourites"
+                android:text="Your_Favourites"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="7dp"
-                android:src="@drawable/img_1" />
+                android:src="@drawable/img_1"/>
 
         </LinearLayout>
 
@@ -281,7 +283,7 @@
 
             <ImageView
                 android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_5" />
 
@@ -290,15 +292,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:text="@string/Payment"
+                android:text="Payment"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="7dp"
-                android:src="@drawable/img_1" />
+                android:src="@drawable/img_1"/>
 
         </LinearLayout>
 
@@ -316,7 +318,7 @@
 
             <ImageView
                 android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_6" />
 
@@ -327,13 +329,13 @@
                 android:layout_weight="1"
                 android:text="Recommended_Shops"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="7dp"
-                android:src="@drawable/img_1" />
+                android:src="@drawable/img_1"/>
 
         </LinearLayout>
 
@@ -363,13 +365,13 @@
                 android:layout_weight="1"
                 android:text="Nearest_Shop"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_height="15dp"
                 android:layout_marginEnd="7dp"
-                android:src="@drawable/img_1" />
+                android:src="@drawable/img_1"/>
 
         </LinearLayout>
         <View
@@ -381,38 +383,35 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="117dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingVertical="12dp">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="19dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/img_8" />
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="63dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:text="Logout"
                 android:textColor="#000000"
-                android:textSize="15sp" />
+                android:textSize="10sp" />
 
-            <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
-                android:layout_marginEnd="7dp"
-                android:src="@drawable/img_1" />
+
 
         </LinearLayout>
-        
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#FFF0000"/>
+            android:alpha="0.08"
+            android:background="#000000"/>
 
     </LinearLayout>
     <LinearLayout
@@ -428,8 +427,8 @@
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@drawable/img_9"
-            />
+            android:src="@drawable/img_9" />
+
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -447,7 +446,7 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/gr"
+            android:background="@drawable/box"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp">
             <ImageView
